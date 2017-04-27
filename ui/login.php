@@ -1,6 +1,7 @@
 <?php
-include ('menu.php');
 require "../util/usernull.php";
+include ('menu.php');
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,7 @@ require "../util/usernull.php";
 <form action="../controller/Login.php" method="get">
     <label>Username:<input type="text" name="username"></label><br>
     <label>Password:<input type="password" name="password"></label><br>
-    <input type="submit" value="Register" name="register">
+    <input type="submit" value="Login" name="register">
 </form>
 </body>
 </html>
